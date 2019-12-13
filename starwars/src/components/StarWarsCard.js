@@ -1,5 +1,5 @@
 import React from "react";
-import {Name, Info,InfoP} from "./StarWarsStyles";
+import {Name, Info, InfoP, Appearance, AppearanceP} from "./StarWarsStyles";
 
 const StarWarsCard = props => {
     return(
@@ -13,11 +13,11 @@ const StarWarsCard = props => {
     
             </div>
             <div>
-                <h3>Appearance</h3>
-                <p>Gender: {props.gender}</p>
-                <p>Eye Color: {props.eye}</p>
-                <p>Hair color: {props.hair}</p>
-                <p>Skin color: {props.skin}</p>
+                <Appearance>Character Appearance</Appearance>
+                <AppearanceP>Gender: {props.gender}</AppearanceP>
+                <AppearanceP>Eye Color: {props.eye}</AppearanceP>
+                <AppearanceP>Hair color: {props.hair}</AppearanceP>
+                <AppearanceP>Skin color: {props.skin}</AppearanceP>
             </div>
         </div>
     )
