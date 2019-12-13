@@ -6,3 +6,11 @@ export const Name = styled.h1`
     padding: 2rem 0;
     color: lightgreen;
 `;
+export const Info = styled.h3`
+    color: lightblue;
+    background-color: blue;
+`;
+
+export const InfoP = styled.p`
+    font-size: 1.6rem;
+`;

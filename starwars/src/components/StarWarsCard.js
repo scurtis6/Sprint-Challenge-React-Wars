@@ -1,15 +1,15 @@
 import React from "react";
-import {Name} from "./StarWarsStyles";
+import {Name, Info,InfoP} from "./StarWarsStyles";
 
 const StarWarsCard = props => {
     return(
         <div>
             <Name>Star Wars Character: {props.name}</Name>
             <div className="character_info">
-                <h3>Character Information</h3>
-                <p>Birth of year: {props.year}</p>
-                <p>Height: {props.height} cm</p>
-                <p>Mass: {props.mass}</p>
+                <Info>Character Information</Info>
+                <InfoP>Birth of year: {props.year}</InfoP>
+                <InfoP>Height: {props.height} cm</InfoP>
+                <InfoP>Mass: {props.mass}</InfoP>
     
             </div>
             <div>
